@@ -3,6 +3,8 @@
 }
 */
 
+/* css para o menu superior */
+
 .menuSup {
 	width: 100%;
 	height: 50px;
@@ -19,8 +21,12 @@
   font-size: 17px;
 }
 
-.itens {
+.menuitens {
 	background-color: red;
+	margin-left: 400px;
+}
+
+.itens {
 	margin-top: 5px;
 }
 
@@ -30,16 +36,16 @@
 	width: 30px;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 220px;
 }
 
 .botaoimg {
-	height: 75px;
-	width: 75px;
+	height: 30px;
+	width: 30px;
 	display: inline-block;
-	margin-left: 100px;
 
 }
+
+/* css para o menu superior (fim) */
 
 .btn {
 	border: none;
@@ -58,7 +64,7 @@
   float: left;
   background-color: #2196F3;
   color: #ffffff;
-  width: 100px;
+  width: 1000px;
   line-height: 100px;
   text-align: center;
   margin: 2px;
