@@ -1,0 +1,80 @@
+/*
+.container {overflow: hidden;
+}
+*/
+
+.menuSup {
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	background-color: green;
+}
+
+.menuSup a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.itens {
+	background-color: red;
+	margin-top: 5px;
+}
+
+.logo{
+	align-self: center;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 220px;
+}
+
+.botaoimg {
+	height: 75px;
+	width: 75px;
+	display: inline-block;
+	margin-left: 100px;
+
+}
+
+.btn {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #f2f2f2 /* transparent */ ;
+}
+
+.botoescontainer {
+	top: 0;
+	position: sticky;
+	background-color: black;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none; /*Esconde os elementos */
+}
+
+.show {
+  display: block;
+}
+
+/* musica.html */
+
+.noticiaheader {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 50%;
+}
