@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Digital Distortion</title>
+	<title>Digital Distortion</title> 
 	<link rel="stylesheet" type="text/css" href="DD.css">
 	<script src="DD.js"></script>
 </head>
 <body>
-
+<!-- Nova divisão para separar os links do Menu superior da logo 
 <nav class="menuSup">
-	<a href="musica.html"><img class="logo"src="imagens/placeholder.jpg"></img></a>
+	<a href="musica.html"><img class="logo" id="inicio" src="imagens/logo.png"></img></a>
+	<a href="" class="titulo">Digital</a>
+	<a href="" class="titulo">Distortion</a> -->
+	<!-- Nova divisão para separar os links do Menu superior da logo
 	<nav class="menuitens">
 		<a href="" class="itens">Nada Ainda</a>
 		<a href="" class="itens">Também Não</a>
 		<a href="" class="itens">Não Sei</a>
+	
 	</nav>
 </nav>
+-->
 
+<ul>
+  <div class="logocontainer">
+	<img class="logo" id="inicio" src="imagens/logo.png">
+  </div>
+  <div class="itens">
+  	<li><a href="#Contatos">Contatos</a></li>
+  	<li><a href="sobre.html">Sobre</a></li>
+  </div>
+</ul>
  
 <div class="botoescontainer">
-  <button class="btn active" onclick="filterSelection('all')">Show all</button>
+  <!-- Divisão para o menu de filtro com botões -->	
+ 	<div class= "filtros"> 
+  	<!-- <button class="btn" onclick="filterSelection('all')">Show all</button> -->
+
+  	<button class="btn" onclick="filterSelection('Cinema')"><img class="botaoimgticket" src="imagens/tickets.png"> </img></button>
   
-  <button class="btn" onclick="filterSelection('Cinema')"><img class="botaoimg" src="imagens/tickets.png"> </img></button>
-  
-  <button class="btn" onclick="filterSelection('Musica')"> Musica</button>
+  	<button class="btn" onclick="filterSelection('Musica')"><img class="botaoimgmusica" src="imagens/musica.png"> </img></button>
+
+ 	<button class="btn" onclick="filterSelection('Jogos')"><img class="botaoimgcontrole" src="imagens/controle.png"> </img></button>
+ 	</div>
+ 
 </div> <br> <br> <br>
 
+<!-- Divs para cada notícia, a classe Musica, Cinema ou Jogos permitem com que sejam filtradas -->
 
- <div class="filterDiv Musica"><a href="">Musica1</a> <p>OI OI OI OI OI OI OI OI OIOIO IO IO IOI OI</p></div>
+<a href="psychon.html">
+ 	<div class="filterDiv Jogos">
+ 	<img src="imagens/psychon.jpg" class="imagemnoticia"> <h2 class="textoint">Astronauta da psicologia</h2>
+ 	</img></div>
+ </a>
  <div class="filterDiv Cinema">Filme1</div>
  <div class="filterDiv Musica Cinema">Musica/Filme</div>
+ <div class="filterDiv Musica">Musica1</div>
+ <div class="filterDiv Jogos"> </div>
  <div class="filterDiv Musica">Musica2</div>
+
+ <a href="#inicio"><div class="topo">Voltar ao topo</div></a>
+
 
 <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <p>oi</p> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
 </body>
 
+<!-- Inicialização para que filtro selecionado seja "todas" para as notícias, ja que o padrão é que estejam escondidas-->
 <script> filterSelection("all") </script>
 </html>
